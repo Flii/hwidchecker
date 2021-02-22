@@ -67,5 +67,7 @@ def get_hwid():
     if keyboard.read_key() == "C" or "c":
         copy2clip(hwid)
         print(hwid + " Has Been Copied To Your Clipboard")
+    else:
+        print("Thanks For Using Flii's HWID Checker")
     time.sleep(0.5)
 main()
